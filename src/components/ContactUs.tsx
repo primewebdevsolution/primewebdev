@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+import Link from 'next/link';
+
 import { useForm, ValidationError } from "@formspree/react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -81,6 +83,9 @@ export function ContactUs() {
             <h2 className="text-md md:text-lg mt-3">
               Do you have a Project in your mind?
             </h2>
+            <Link href="mailto:infoprimewebdev@gmail.com" className="text-md md:text-lg mt-3">
+              infoprimewebdev@gmail.com
+            </Link>
           </div>
           <div className="mt-[3rem] -ml-4 text-white-100">
             <FloatingDock items={links} />
