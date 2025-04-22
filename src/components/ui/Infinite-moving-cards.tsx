@@ -108,7 +108,7 @@ export const InfiniteMovingCards = ({
                 <span className="px-2">
                   <Image
                     src={item?.img || "https://drive.google.com/uc?export=view&id=1CPEc1pdAslenyv0ULlP8phyzDv1LB6go"}
-                    alt={item?.title}
+                    alt={'img'}
                     width={40}
                     height={50}
                     className="rounded-full w-[40px] h-[40px] object-cover"
