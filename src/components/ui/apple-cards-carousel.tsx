@@ -258,7 +258,7 @@ export const Card = ({
         </div>
         <BlurImage
           src={card.src}
-          alt={card?.title}
+          alt={'img'}
           fill
           className="object-contain absolute z-10 inset-0 rounded-md"
         />
