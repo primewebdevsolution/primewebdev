@@ -1,29 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import dynamic from "next/dynamic";
+import  ThemeProvider  from "@/components/theme-provider";
 
 const inter = Inter({ subsets: ["latin"] });
-
-// Lazy load ThemeProvider
-const ThemeProvider = dynamic(() => import("@/components/theme-provider"), {
-  ssr: false,
-  loading: () => (
-    <div
-      style={{
-        backgroundColor: "#000319",
-        color: "#FFFFFF",
-        height: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        fontSize: "1.2rem",
-      }}
-    >
-      Loading...
-    </div>
-  ),
-});
 
 export const metadata: Metadata = {
   title: "Prime Web Developers Web Development & Design Agency",
@@ -88,7 +68,7 @@ export const metadata: Metadata = {
     "Webflow vs WordPress 2025",
     "headless CMS development",
     "custom React website",
-    "Next.js website development",
+    "Next.js website development"
   ],
   icons: {
     icon: "/favicon.png",
