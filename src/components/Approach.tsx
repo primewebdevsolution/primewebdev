@@ -64,18 +64,7 @@ export function Approach() {
           </p>
         </CardSpotlight>
       </div>
-      <div className="mt-12 flex justify-center items-center font-bold">
-      <div>
-            <Link href="#about">
-              <MagicButton
-                title="Get Started"
-                icon=""
-                position="right"
-                otherClasses="rounded-full font-bold text-md sm:text-md md:text-xl lg:text-2xl  lg:w-full lg:h-full"
-              />
-            </Link>
-          </div>
-      </div>
+      
 
       <div className=" mt-12 border border-b-purple/10 "></div>
     </>

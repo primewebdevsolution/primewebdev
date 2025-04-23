@@ -6,10 +6,12 @@ export function About() {
           <h1 className="text-md md:text-xl lg:text-2xl xl:text-3xl font-bold text-purple-500 text-center">
             About Us
           </h1>
-          
         </div>
         <p className="mt-8 px-4 sm:px-0 md:w-[44rem] lg:w-[48rem] ml-[-1rem] sm:ml-0 md:tracking-wider mb-2 text-sm md:text-md lg:text-[1rem] text-gray-300 text-center">
-          <span className="text-[1.2rem] md:text-xl lg:text-xl xl:text-2xl font-bold from-neutral-100 text-gray-300">Your trusted partner for business, <br /></span>primewebdev was founded on the belief that every business deserves a
+          <span className="text-[1.2rem] md:text-xl lg:text-xl xl:text-2xl font-bold from-neutral-100 text-gray-300">
+            Your trusted partner for business, <br />
+          </span>
+          primewebdev was founded on the belief that every business deserves a
           powerful digital presence. We are a team of passionate web developers,
           designers, and strategists who love turning ideas into impactful
           online experiences. Our mission is to empower businesses to thrive in
@@ -27,15 +29,23 @@ export function About() {
             Highly experienced people with us
           </h3>
         </div>
-        <p className="mt-2 px-4 sm:px-0 md:w-[44rem] lg:w-[48rem] ml-[-1rem] sm:ml-0 md:tracking-wider mb-2 text-sm md:text-md lg:text-[1rem] text-gray-300 text-center">
-          This is the main factor that sets us apart from our competition and
-          allows us to deliver a specialist business consultancy service. Our
-          team applies its wide-ranging experience to determining. Through our
-          years of experience, we’ve also learned that while each channel. This
-          is the main factor that sets us apart from our competition and allows
-          us to deliver a specialist business consultancy service. Our team
-          applies its wide-ranging experience to determining.
-        </p>
+        <ul className="mt-2 px-4 sm:px-0 md:w-[44rem] lg:w-[48rem] ml-[-1rem] sm:ml-0 md:tracking-wider mb-2 text-sm md:text-md lg:text-[1rem] text-gray-300 text-center pointer-events-auto">
+          <li>
+            We stand out from our competition by delivering specialist business
+            consultancy services.
+            <br />
+          </li>
+          <li>
+            Our team leverages a wide range of experience to make informed
+            decisions.
+            <br />
+          </li>
+          <li>
+            Over the years, we’ve learned that each channel has its own unique
+            challenges and opportunities.
+            <br />
+          </li>
+        </ul>
       </div>
     </div>
   );

@@ -10,11 +10,11 @@ export function Projects() {
 
   return (
     <div className="w-full h-full py-20 flex flex-col justify-center items-center">
-        <h4 className="text-[rgb(142,140,149)] text-xs sm:text-sm md:text-base">
-          What Can We Do
-        </h4>
-        <h2 className=" md:text-2xl lg:text-5xl xl:text-4xl font-bold text-white">
-      Some recent work...
+      <h4 className="text-[rgb(142,140,149)] text-xs sm:text-sm md:text-base">
+        What Can We Do
+      </h4>
+      <h2 className=" md:text-2xl lg:text-5xl xl:text-4xl font-bold text-white">
+        Some recent work...
       </h2>
       <Carousel items={cards} />
     </div>
@@ -58,18 +58,23 @@ const data = [
     // category: "Artificial Intelligence",
     // title: "You can do more with AI.",
     src: "https://drive.google.com/uc?export=view&id=1xttdfxQiXA3OzgaH3bqvk8tc2T-49TEZ",
+    link: "https://project-one.example.com",
     content: <DummyContent />,
   },
   {
     // category: "Productivity",
     // title: "Enhance your productivity.",
     src: "https://drive.google.com/uc?export=view&id=1oAeZqJQ70KYpXlEx9RajZwDVq18aepwm",
+    link: "https://project-one.example.com",
+
     content: <DummyContent />,
   },
   {
     // category: "Product",
     // title: "Launching the new Apple Vision Pro.",
     src: "https://drive.google.com/uc?export=view&id=1lYOYTIX5uUIgThzdczD3O-tNI0ErT1gv",
+    link: "https://project-one.example.com",
+
     content: <DummyContent />,
   },
 
@@ -77,18 +82,24 @@ const data = [
     // category: "Product",
     // title: "Maps for your iPhone 15 Pro Max.",
     src: "https://drive.google.com/uc?export=view&id=1g7iL2Ix5ylBVcGaZn7xrDXBE3JvCIBAu",
+    link: "https://project-one.example.com",
+
     content: <DummyContent />,
   },
   {
-  //   // category: "Product",
-  //   // title: "Maps for your iPhone 15 Pro Max.",
-     src: "https://drive.google.com/uc?export=view&id=1Wh02-paWYsbWOKzERK0snyL9CHqp_cDH",
-     content: <DummyContent />,
+    //   // category: "Product",
+    //   // title: "Maps for your iPhone 15 Pro Max.",
+    src: "https://drive.google.com/uc?export=view&id=1Wh02-paWYsbWOKzERK0snyL9CHqp_cDH",
+    link: "https://project-one.example.com",
+
+    content: <DummyContent />,
   },
   {
-  //   // category: "Product",
-  //   // title: "Maps for your iPhone 15 Pro Max.",
-     src: "https://drive.google.com/uc?export=view&id=1LBRe7tjHTvRtpp0dHdZIL0Rlfl-kNC7I",
-     content: <DummyContent />,
+    //   // category: "Product",
+    //   // title: "Maps for your iPhone 15 Pro Max.",
+    src: "https://drive.google.com/uc?export=view&id=1LBRe7tjHTvRtpp0dHdZIL0Rlfl-kNC7I",
+    link: "https://project-one.example.com",
+
+    content: <DummyContent />,
   },
 ];

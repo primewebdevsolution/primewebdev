@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
             href="/#about"
             className="hover:text-gray-300 transition-colors hidden sm:flex"
           >
-            ABOUT
+            About
           </Link>
           <Link href="/#contact">
             <button className="hidden px-3 py-2 sm:flex bg-white text-md text-black rounded-lg hover:bg-gray-100 transition-all duration-300">

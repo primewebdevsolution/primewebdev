@@ -52,24 +52,25 @@ export const testimonials = [
   {
     id: 0,
     quote:
-      "A leading retailer partnered with us to revamp their e-commerce platform. By integrating a scalable solution with optimized user experience, they achieved a 40% increase in online sales within six months.",
-    title: "Boosted E-Commerce Sales with a Scalable Platform",
-    name: "Rohit",
+      "We worked with a growing fashion retailer to rebuild their online store from the ground up. By focusing on mobile optimization and simplifying the checkout flow, they saw a 40% increase in online sales within just six months.",
+    title: "E-Commerce Sales Skyrocketed with a Custom Redesign",
+    name: "Rohit Mehra",
     img: "https://drive.google.com/uc?export=view&id=1N9g-zCIE0ayo7HhEoBrlODrm3R9rh87o",
   },
   {
     id: 1,
     quote:
-      "Our advanced logistics platform streamlined operations for a leading supply chain company, reducing delivery times by 25% and cutting operational costs by 18%. With real-time tracking, predictive analytics, and automated workflows, we empowered the client to scale efficiently and enhance customer satisfaction.",
-    name: "William Shakespeare",
-    title: "Transforming Logistics ",
+      "We developed a custom logistics dashboard for a national delivery company, which reduced average delivery times by 25% and cut monthly operational costs by 18%. Features like real-time tracking and smart route optimization helped them scale faster and improve customer satisfaction.",
+    title: "Revolutionized Delivery with Smart Logistics",
+    name: "Anita Desai",
     img: "https://drive.google.com/uc?export=view&id=1W9cj4MmYTKqZHilmc8V9h3JA4Z2HTd20",
   },
   {
     id: 2,
-    quote: "A leading school replaced their paper-based system with a streamlined School Management System, reducing administrative workload by 40% and improving data accuracy.",
-    name: "Edgar Allan Poe",
-    title: "Enhanced Efficiency with Digital Workflows",
+    quote:
+      "A local school came to us looking for a better way to manage attendance, grades, and communication. We replaced their outdated paper-based system with a digital platform that cut admin time by 40% and made data access seamless for teachers and staff.",
+    title: "Digitized School Operations for Seamless Management",
+    name: "Aditya Sharma",
     // img: "/client-img01.svg",
   },
 ];
@@ -145,22 +146,26 @@ export const products = [
   {
     title: "Jewellery Portfolio",
     link: "#",
-    thumbnail: "https://drive.google.com/uc?export=view&id=1lYOYTIX5uUIgThzdczD3O-tNI0ErT1gv",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=1lYOYTIX5uUIgThzdczD3O-tNI0ErT1gv",
   },
   {
     title: "Arbaz Khan",
     link: "https://arbazdev.vercel.app/",
-    thumbnail: "https://drive.google.com/uc?export=view&id=1vje6syOIH7zyRybExauBFy6TAM_0HUFp",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=1vje6syOIH7zyRybExauBFy6TAM_0HUFp",
   },
   {
     title: "Samir Kayamkhani",
     link: "https://my-portfolio-ochre-omega-35.vercel.app/",
-    thumbnail: "https://drive.google.com/uc?export=view&id=1uDzx7zlP0BgYaW5dxOPzfYciUe9VSjEp",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=1uDzx7zlP0BgYaW5dxOPzfYciUe9VSjEp",
   },
   {
     title: "School Management System",
     link: "#",
-    thumbnail: "https://drive.google.com/uc?export=view&id=1aT60AeiW9NQQfA9ltTWW35HtAahsV7Pl",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=1aT60AeiW9NQQfA9ltTWW35HtAahsV7Pl",
   },
   {
     title: "cafe",
@@ -171,7 +176,8 @@ export const products = [
   {
     title: "Arbaz Khan",
     link: "https://arbazdev.vercel.app/",
-    thumbnail: "https://drive.google.com/uc?export=view&id=1vje6syOIH7zyRybExauBFy6TAM_0HUFp"
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=1vje6syOIH7zyRybExauBFy6TAM_0HUFp",
   },
 
   {
@@ -192,5 +198,4 @@ export const products = [
     thumbnail:
       "https://drive.google.com/uc?export=view&id=1aT60AeiW9NQQfA9ltTWW35HtAahsV7Pl",
   },
-  
 ];

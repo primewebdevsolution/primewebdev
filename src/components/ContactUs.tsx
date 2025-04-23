@@ -81,10 +81,9 @@ export function ContactUs() {
         <h2 className="text-2xl md:text-4xl font-bold text-white">
           Contact Us
         </h2>
-        <div className="border-b border-white opacity-10 my-4 w-24 mx-auto" />
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 justify-center items-start px-4 md:px-8">
+      <div className="flex my-4 flex-col lg:flex-row gap-10 lg:gap-40 justify-center items-start px-4 md:px-8">
         <div className="w-full max-w-md bg-white dark:bg-black-100 rounded-xl p-6 shadow-xl">
           <h1 className="text-lg md:text-xl font-semibold">Getting in Touch</h1>
           <p className="mt-3 text-md md:text-lg">
@@ -217,8 +216,8 @@ export function ContactUs() {
                 disabled={state.submitting}
                 className="relative inline-flex h-12 overflow-hidden rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-500 p-[1px] shadow-lg"
               >
-                <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-black text-white px-6 text-base font-medium hover:bg-gray-900 transition-all duration-300">
-                  Get Started
+                <span className="inline-flex h-full w-full items-center justify-center rounded-full  text-white px-6 text-base font-medium hover:bg-gray-900 transition-all duration-300">
+                  Submit Now
                 </span>
               </button>
             </div>

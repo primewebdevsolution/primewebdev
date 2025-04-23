@@ -15,6 +15,7 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Image, { ImageProps } from "next/image";
 import { useOutsideClick } from "@/hooks/use-outside-click";
+import Link from "next/link";
 
 interface CarouselProps {
   items: JSX.Element[];
@@ -24,6 +25,7 @@ interface CarouselProps {
 type Card = {
   src: string;
   title?: string;
+  link?: string;
   category?: string;
   content: React.ReactNode;
 };
@@ -258,11 +260,41 @@ export const Card = ({
         </div>
         <BlurImage
           src={card.src}
-          alt={'img'}
+          alt={"img"}
           fill
           className="object-contain absolute z-10 inset-0 rounded-md"
         />
       </motion.button>
+
+      <div className="flex items-center justify-center">
+        {card?.link && (
+          <Link
+            href={card.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative mt-4 bg-white/90 w-24 text-black font-semibold px-4 py-2 rounded-full text-sm shadow-lg hover:bg-gray-100 transition-all duration-300 ease-in-out text-center flex items-center justify-center overflow-hidden"
+          >
+            <span className="relative z-10">Visit</span>
+
+            {/* Arrow */}
+            <span className="absolute flex items-center left-2/3 top-1/2 -translate-y-1/2 translate-x-full group-hover:translate-x-2 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out z-0">
+              <svg
+                className="w-4 h-4 text-black"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </span>
+          </Link>
+        )}
+      </div>
     </>
   );
 };
