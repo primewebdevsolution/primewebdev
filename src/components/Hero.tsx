@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useEffect, useState } from "react";
 import { Spotlight } from "./ui/Spotlight";
@@ -7,8 +7,19 @@ import MagicButton from "./ui/tailwindcss-buttons";
 import Link from "next/link";
 
 export default function Hero() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
 
-  
+  const openCalendly = () => {
+    window.Calendly.initPopupWidget({
+      url: "https://calendly.com/infoprimewebdev/30min",
+    });
+  };
+
   return (
     <div className="pb-20 pt-[0rem] transition-opacity duration-1000 mt-[7rem]">
       <div>
@@ -29,25 +40,29 @@ export default function Hero() {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-[50rem] lg:max-[60vw] flex flex-col items-center">
-          <h2 className={` uppercase tracking-widest text-xs text-center text-blue-100 max-w-80`}>
+          <h2
+            className={` uppercase tracking-widest text-xs text-center text-blue-100 max-w-80`}
+          >
             ✨ Your work spaced perfected
           </h2>
           <TextGenerateEffect
             className="text-center  text-[33px] md:text-5xl lg:text-5xl "
             words="Crafting Your Digital Presence, One Snap at a Time"
           />
-          <p className={` text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-1xl`}>
-            At primewebdev, we turn your vision into reality with innovative web development and design solutions that stand out and engage your audience.
+          <p
+            className={` text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-1xl`}
+          >
+            At primewebdev, we turn your vision into reality with innovative web
+            development and design solutions that stand out and engage your
+            audience.
           </p>
-          <div className={``}>
-            <Link href="/#contact">
-              <MagicButton 
-                title="Book a Free Consultation" 
-                icon=""
-                position="right"
-                otherClasses="rounded-full text-xs font-bold md:text-sm lg:text-sm"
-              />
-            </Link>
+          <div>
+            <MagicButton
+              title="Book a Free Consultation"
+              position="right"
+              handleClick={openCalendly} // Fix: use handleClick instead of onClick
+              otherClasses="rounded-full text-xs font-bold md:text-sm lg:text-sm"
+            />
           </div>
         </div>
       </div>
