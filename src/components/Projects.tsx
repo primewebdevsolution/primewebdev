@@ -58,14 +58,14 @@ const data = [
     // category: "Artificial Intelligence",
     // title: "You can do more with AI.",
     src: "https://drive.google.com/uc?export=view&id=1xttdfxQiXA3OzgaH3bqvk8tc2T-49TEZ",
-    link: "https://project-one.example.com",
+    link: "https://cafedummy.vercel.app",
     content: <DummyContent />,
   },
   {
     // category: "Productivity",
     // title: "Enhance your productivity.",
     src: "https://drive.google.com/uc?export=view&id=1oAeZqJQ70KYpXlEx9RajZwDVq18aepwm",
-    link: "https://project-one.example.com",
+    link: "https://gymdummy.vercel.app",
 
     content: <DummyContent />,
   },
@@ -73,7 +73,7 @@ const data = [
     // category: "Product",
     // title: "Launching the new Apple Vision Pro.",
     src: "https://drive.google.com/uc?export=view&id=1lYOYTIX5uUIgThzdczD3O-tNI0ErT1gv",
-    link: "https://project-one.example.com",
+    link: "https://jewelry-orpin.vercel.app",
 
     content: <DummyContent />,
   },
@@ -82,7 +82,7 @@ const data = [
     // category: "Product",
     // title: "Maps for your iPhone 15 Pro Max.",
     src: "https://drive.google.com/uc?export=view&id=1g7iL2Ix5ylBVcGaZn7xrDXBE3JvCIBAu",
-    link: "https://project-one.example.com",
+    link: "https://qitchendummy.vercel.app/",
 
     content: <DummyContent />,
   },
