@@ -90,7 +90,7 @@ const data = [
     //   // category: "Product",
     //   // title: "Maps for your iPhone 15 Pro Max.",
     src: "https://drive.google.com/uc?export=view&id=1Wh02-paWYsbWOKzERK0snyL9CHqp_cDH",
-    link: "https://project-one.example.com",
+    link: "https://www.kingfishlogistics.in",
 
     content: <DummyContent />,
   },
