@@ -145,19 +145,19 @@ export const fq = [
 export const products = [
   {
     title: "Jewellery Portfolio",
-    link: "#",
+    link: "https://jewelry-orpin.vercel.app",
     thumbnail:
       "https://drive.google.com/uc?export=view&id=1lYOYTIX5uUIgThzdczD3O-tNI0ErT1gv",
   },
   {
     title: "Arbaz Khan",
-    link: "https://arbazdev.vercel.app/",
+    link: "https://arbazdev.vercel.app",
     thumbnail:
       "https://drive.google.com/uc?export=view&id=1vje6syOIH7zyRybExauBFy6TAM_0HUFp",
   },
   {
     title: "Samir Kayamkhani",
-    link: "https://my-portfolio-ochre-omega-35.vercel.app/",
+    link: "https://samir-kayamkhani.vercel.app",
     thumbnail:
       "https://drive.google.com/uc?export=view&id=1uDzx7zlP0BgYaW5dxOPzfYciUe9VSjEp",
   },
@@ -169,26 +169,26 @@ export const products = [
   },
   {
     title: "cafe",
-    link: "#",
+    link: "https://cafedummy.vercel.app",
     thumbnail:
       "https://drive.google.com/uc?export=view&id=1xttdfxQiXA3OzgaH3bqvk8tc2T-49TEZ",
   },
   {
     title: "Arbaz Khan",
-    link: "https://arbazdev.vercel.app/",
+    link: "https://arbazdev.vercel.app",
     thumbnail:
       "https://drive.google.com/uc?export=view&id=1vje6syOIH7zyRybExauBFy6TAM_0HUFp",
   },
 
   {
     title: "cafe",
-    link: "#",
+    link: "https://cafedummy.vercel.app",
     thumbnail:
       "https://drive.google.com/uc?export=view&id=1xttdfxQiXA3OzgaH3bqvk8tc2T-49TEZ",
   },
   {
     title: "Devendra Singh",
-    link: "https://devendra0007.vercel.app",
+    link: "https://devender-green.vercel.app",
     thumbnail:
       "https://drive.google.com/uc?export=view&id=1H1J343ZfaObPSMUG6JPl_coJ60AiHiXO",
   },
