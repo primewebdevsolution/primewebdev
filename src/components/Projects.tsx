@@ -105,7 +105,7 @@ const data = [
   {
     //   // category: "Product",
     //   // title: "Maps for your iPhone 15 Pro Max.",
-    src: "https://drive.google.com/file/d/1VOlp745R-kdJ_VJWwnv-xNwdEXubIxOc/view",
+    src: "https://drive.google.com/uc?export=view&id=1VOlp745R-kdJ_VJWwnv-xNwdEXubIxOc",
     link: "https://dainteldummy.vercel.app",
 
     content: <DummyContent />,
