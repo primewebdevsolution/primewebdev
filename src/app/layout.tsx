@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import  ThemeProvider  from "@/components/theme-provider";
+import ThemeProvider from "@/components/theme-provider";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -68,7 +69,7 @@ export const metadata: Metadata = {
     "Webflow vs WordPress 2025",
     "headless CMS development",
     "custom React website",
-    "Next.js website development"
+    "Next.js website development",
   ],
   icons: {
     icon: "/favicon.png",
@@ -104,6 +105,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        {/* Structured Data for Organization Logo */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Prime Web Developers",
+              url: "https://primewebdev.in",
+              logo: "/favicon.png",
+            }),
+          }}
+        />
+      </Head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
