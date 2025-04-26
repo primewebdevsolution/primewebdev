@@ -4,6 +4,7 @@ import BrandLogoSlidAnimation from "@/components/BrandLogoSlidAnimation";
 import { ContactUs } from "@/components/ContactUs";
 import Cta from "@/components/Cta";
 import { FQ } from "@/components/F&Q";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import { Footer } from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -29,6 +30,7 @@ export default function Home() {
         <FQ />
         <ContactUs />
         <Footer />
+        <FloatingWhatsApp />
       </div>
     </main>
   );
