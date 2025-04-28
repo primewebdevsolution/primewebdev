@@ -76,14 +76,14 @@ export function ContactUs() {
   }
 
   return (
-    <div className=" py-20">
+    <div className=" py-5">
       <div id="contact" className="text-center px-4">
         <h2 className="text-2xl md:text-4xl font-bold text-white">
           Contact Us
         </h2>
       </div>
 
-      <div className="flex my-4 flex-col lg:flex-row gap-10 lg:gap-40 justify-center items-start px-4 md:px-8">
+      <div className="flex my-4 flex-col lg:flex-row gap-10 lg:gap-40 justify-center items-start  md:px-8">
         <div className="w-full max-w-md bg-white dark:bg-black-100 rounded-xl p-6 shadow-xl">
           <h1 className="text-lg md:text-xl font-semibold">Getting in Touch</h1>
           <p className="mt-3 text-md md:text-lg">
@@ -111,7 +111,7 @@ export function ContactUs() {
           </div>
         </div>
 
-        <div className="w-full max-w-md bg-white dark:bg-black-100 rounded-xl p-6 shadow-xl">
+        <div className="w-full max-w-md bg-white dark:bg-black-100 rounded-xl p-2 shadow-xl">
           <h2 className="font-bold text-xl md:text-2xl text-black dark:text-white mb-2">
             Let’s Work Together
           </h2>

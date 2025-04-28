@@ -115,7 +115,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Prime Web Developers",
               url: "https://primewebdev.in",
-              logo: "/favicon.png",
+              logo: "/favicononsearch.png",
             }),
           }}
         />

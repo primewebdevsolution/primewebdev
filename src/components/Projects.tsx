@@ -9,7 +9,7 @@ export function Projects() {
   ));
 
   return (
-    <div className="w-full h-full py-20 flex flex-col justify-center items-center">
+    <div className="w-full h-full flex flex-col justify-center items-center">
       <h4 className="text-[rgb(142,140,149)] text-xs sm:text-sm md:text-base">
         What Can We Do
       </h4>

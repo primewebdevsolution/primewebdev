@@ -156,10 +156,10 @@ export const products = [
       "https://drive.google.com/uc?export=view&id=1vje6syOIH7zyRybExauBFy6TAM_0HUFp",
   },
   {
-    title: "Samir Kayamkhani",
-    link: "https://samir-kayamkhani.vercel.app",
+    title: "Devendra Singh",
+    link: "https://devender-green.vercel.app",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1uDzx7zlP0BgYaW5dxOPzfYciUe9VSjEp",
+      "https://drive.google.com/uc?export=view&id=1H1J343ZfaObPSMUG6JPl_coJ60AiHiXO",
   },
   {
     title: "School Management System",
@@ -187,10 +187,10 @@ export const products = [
       "https://drive.google.com/uc?export=view&id=1xttdfxQiXA3OzgaH3bqvk8tc2T-49TEZ",
   },
   {
-    title: "Devendra Singh",
-    link: "https://devender-green.vercel.app",
+    title: "Samir Kayamkhani",
+    link: "https://samir-kayamkhani.vercel.app",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1H1J343ZfaObPSMUG6JPl_coJ60AiHiXO",
+      "https://drive.google.com/uc?export=view&id=1uDzx7zlP0BgYaW5dxOPzfYciUe9VSjEp",
   },
   {
     title: "School Management System",

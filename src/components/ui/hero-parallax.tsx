@@ -52,14 +52,14 @@ export const HeroParallax = ({
     springConfig
   );
   const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
+    useTransform(scrollYProgress, [0, 0.2], [-700, 50]),
     springConfig
   );
 
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden rounded-t-[1rem] antialiased relative flex flex-col [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[220vh] sm:h-[280vh] py-20 md:py-40 overflow-hidden rounded-t-[1rem] antialiased relative flex flex-col [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -70,7 +70,7 @@ export const HeroParallax = ({
           opacity,
         }}
       >
-        <motion.div className="flex flex-nowrap flex-row-reverse gap-6 mb-20 overflow-x-hidden px-4 sm:px-8">
+        <motion.div className="flex flex-nowrap flex-row-reverse gap-4 sm:gap-6 mb-12 sm:mb-20 overflow-x-hidden px-4 sm:px-8">
           {firstRow.map((product) => (
             <ProductCard
               product={product}
@@ -79,7 +79,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-nowrap flex-row gap-6 mb-20 overflow-x-hidden px-4 sm:px-8">
+        <motion.div className="flex flex-nowrap flex-row gap-4 sm:gap-6 mb-12 sm:mb-20 overflow-x-hidden px-4 sm:px-8">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -88,7 +88,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-nowrap flex-row-reverse gap-6 overflow-x-hidden px-4 sm:px-8">
+        <motion.div className="flex flex-nowrap flex-row-reverse gap-4 sm:gap-6 overflow-x-hidden px-4 sm:px-8">
           {thirdRow.map((product) => (
             <ProductCard
               product={product}
@@ -132,7 +132,7 @@ export const ProductCard = ({
     <motion.div
       style={{ x: translate }}
       whileHover={{ y: -20 }}
-      className="group/product h-80 sm:h-96 w-[18rem] sm:w-[22rem] md:w-[26rem] lg:w-[30rem] relative flex-shrink-0"
+      className="group/product h-72 sm:h-80 w-[16rem] sm:w-[20rem] md:w-[24rem] lg:w-[28rem] relative flex-shrink-0"
     >
       <Link
         href={product.link}
